@@ -23,6 +23,7 @@ public class Triple<Type1, Type2, Type3> {
     public void setMiddle(Type2 middle) { this.middle = middle; }
     public void setRight(Type3 right) { this.right = right; }
 
+    @Override
     public String toString() {
         return "(" + left + ", " + middle + ", " + right + ")";
     }
